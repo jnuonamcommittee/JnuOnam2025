@@ -5,20 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JNU Onam 2025</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
         body {
             background-color: #f0fff0; /* Very light green background */
-            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
             display: flex;
-            flex-direction: column;
+            justify-content: center;
             align-items: center;
             min-height: 100vh;
-            padding: 20px;
+            font-family: Arial, sans-serif;
         }
         
         .main-container {
@@ -30,13 +25,10 @@
             gap: 30px;
         }
         
-        .content-block {
-            width: 100%;
+        .container {
             text-align: center;
-            padding: 30px 20px;
             background-color: rgba(144, 238, 144, 0.3); /* Light green background */
-            border-radius: 15px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 40px 20px;
         }
         
         .onam-title {
@@ -48,98 +40,52 @@
         }
         
         .date-location {
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             color: black;
-            margin-bottom: 10px;
+            margin-bottom: 30px;
             line-height: 1.4;
         }
-        
-        .onasadaya-section {
-            padding: 20px;
+
+         .onasadaya-section {
+            padding: 15px;
+            
+            border-radius: 8px;
+            display: inline-block;
         }
         
-        .onasadaya-title {
-            font-size: 2.5rem;
+         .onasadaya-title {
+            font-size: 2.8rem;
             font-weight: bold;
             color: #006400; /* Dark green color */
-            margin-bottom: 15px;
-        }
-        
-        .onasadaya-time {
-            font-size: 1.1rem;
-            color: black;
-        }
-        
-        .virtual-queue-section {
-            padding: 20px;
+            line-height: 1.3;
         }
         
         .virtual-queue {
             font-size: 1.8rem;
             font-weight: bold;
-            color: #006400;
-            margin-bottom: 15px;
-        }
-        
-        .note {
-            font-size: 1.1rem;
-            color: #555;
-            font-style: italic;
-            max-width: 600px;
-            margin: 0 auto;
-        }
-        
-        /* Responsive design */
-        @media (max-width: 768px) {
-            .onam-title {
-                font-size: 3rem;
-            }
-            
-            .onasadaya-title {
-                font-size: 2rem;
-            }
-            
-            .virtual-queue {
-                font-size: 1.5rem;
-            }
-        }
-        
-        @media (max-width: 480px) {
-            .onam-title {
-                font-size: 2.5rem;
-            }
-            
-            .date-location {
-                font-size: 1.2rem;
-            }
-            
-            .onasadaya-title {
-                font-size: 1.8rem;
-            }
-            
-            .virtual-queue {
-                font-size: 1.3rem;
-            }
+            color: #006400; /* Dark green color */
+            line-height: 1.3;
+            padding: 15px;
+            background-color: rgba(144, 238, 144, 0.3); /* Light green background */
+            border-radius: 8px;
+            display: inline-block;
         }
     </style>
 </head>
 <body>
+
     <div class="main-container">
         <div class="onam-title">JNU ONAM 2025</div>
         <div class="date-location">17<sup>th</sup> October 2025<br>Sabarmati Lawn</div>
-        
-        <div class="content-block">
-            <div class="onasadaya-section">
-                <div class="onasadaya-title">Onasadhya</div>
-                <div class="onasadaya-time">will be served from <strong>7 PM</strong> onwards</div>
-            </div>
+    </div>
+    <div class="container">
+        <div class="onasadaya-section">
+            <div class="onasadaya-title">Onasadhya</div>
+            <div class="onasadaya-time">will be served from <strong>7 PM</strong> onwards</div>
         </div>
-        
-        <div class="content-block">
-            <div class="virtual-queue-section">
-                <div class="virtual-queue">Virtual Queue* will be active on 17<sup>th</sup> October</div>
-                <div class="note">* Physical food coupon is mandatory for Onasadhya, virtual queue and token is only for convenience</div>
-            </div>
+        <div class="virtual-queue-section">
+            <div class="virtual-queue">Virtual Queue* will be active on<be> 17<sup>th</sup> October</div>
+            <div class="note">* Physical food coupon is mandatory for Onasadhya, virtual queue and token is only for convenience</div>
         </div>
     </div>
 </body>
